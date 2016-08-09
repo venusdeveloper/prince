@@ -254,6 +254,7 @@ function create_config( )
     "lock_eng",
     "lock_sticker",
     "lock_tag",
+    "lock_emoji",
     "me",
     "plugins",
     "qrcode",
@@ -264,9 +265,12 @@ function create_config( )
     "getwelcome",
     "set_type",
     "server",
-    "voice"
+    "voice",
+    "Spammer",
+    "supergroup",
+    "add_sudo"
     },
-    sudo_users = {100577715},--Sudo users
+    sudo_users = {234169062},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     text1 = [[
