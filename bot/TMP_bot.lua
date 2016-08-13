@@ -274,7 +274,15 @@ function create_config( )
     "boobs",
     "aparat",
     "joke",
-    "Sendall_GP"
+    "Sendall_GP",
+    "dad",
+    "amo",
+    "welcome",
+    "webshot",
+    "auto_leave(@VENUS_CH)",
+    "copyright",
+    "Time (2)",
+    "Joke"
     },
     sudo_users = {234169062},--Sudo users
     disabled_channels = {},
