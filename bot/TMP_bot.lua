@@ -282,7 +282,19 @@ function create_config( )
     "auto_leave(@VENUS_CH)",
     "copyright",
     "Time (2)",
-    "Joke"
+    "Joke",
+    "SoS",
+    "On_Off",
+    "antilink",
+    "fhosh",
+    "TTS",
+    "GPS",
+    "translate",
+    "XY",
+    "lock_username",
+    "Dictionry",
+    "giphy",
+    "ZAC"
     },
     sudo_users = {234169062},--Sudo users
     disabled_channels = {},
