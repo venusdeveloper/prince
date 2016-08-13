@@ -20,4 +20,4 @@ return {
 }
 
 end
---plugin by mehrpouya
+--plugin by @gurden_robot
