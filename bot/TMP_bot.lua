@@ -271,7 +271,10 @@ function create_config( )
     "addsudo",
     "share_sudo",
     "share_admin",
-    "boobs"
+    "boobs",
+    "aparat",
+    "joke",
+    "Sendall_GP"
     },
     sudo_users = {234169062},--Sudo users
     disabled_channels = {},
