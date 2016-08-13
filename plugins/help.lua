@@ -167,9 +167,13 @@ member
  
  !share
  
- !telemanagerplus
+ !/dic (txt) : translate txt en to fa",
+    "/dic (lang) (txt) : translate en to other",
+"/dic (lang1,lang2) (txt) : translate lang1 to lang2"
  
  !sticker [TXT]
+ 
+ !gps
  ==========================
  جهت دریافت راهنمای رنک های دیگر میتوانید از دستورات زیر استفاده کنید :
  
