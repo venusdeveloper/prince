@@ -214,7 +214,12 @@ member
  !plugins [+-] [Plugname]
  
  !reload
+ 
  !addsudo
+ 
+ !bye
+ 
+ !bot? on/off
  
  ==========================
  به علاوه دسترسی به تمامی دستورات رنک های دیگر
