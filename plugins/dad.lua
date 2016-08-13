@@ -15,13 +15,13 @@ local function run(msg, matches)
   if msg.to.type == 'chat' then
     local chat = 'chat#id'..msg.to.id
     chat_add_user(chat, user, callback, false)
-    return "سازنده ربات وارد گروه شد"
+    return "بابایی اومد😍😍😍😍😍"
 elseif msg.to.type == 'channel' then
     local chat = 'channel#id'..msg.to.id
     channel_invite(chat, user, callback, false)
-    return "سازنده ربات وارد گروه شد"
+    return "بابایی اومد😍😍😍😍😍"
   else 
-    return 'اینجا یک گروه نمی باشد'
+    return 'دیوانه این جا که گروه نیست'
   end
 
 end
