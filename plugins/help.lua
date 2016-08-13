@@ -4,7 +4,7 @@ function run(msg, matches)
 
 local mods = [[ 
 راهنما فارسی مدیران :
-@telemanager_ch
+@gurden_robot
 
 !kick [Username | ID | Reply]
 
@@ -65,7 +65,7 @@ member
  local admin = [[ 
  
  راهنمای فارسی ادمین ها :
- @telemanager_ch
+ @gurden_robot
  
  !banall [Reply | ID | Username]
  
@@ -108,15 +108,13 @@ member
  local owner = [[
  
  راهنمای فارسی صاحبان گروه :
- @telemanager_ch
+ @gurden_robot
  
  !promote [Reply | ID | Username]
  
  !demote [Reply | ID | Username]
  
  !setowner [ID | Reply]
- 
- !addsudo
  
  !setrank [Reply | ID | Username]
  ==========================
@@ -141,7 +139,7 @@ member
  local member = [[
  
  راهنمای فارسی عضو ها :
- @telemanager_ch
+ @gurden_robot
  
  !calc [formula]
  
@@ -187,7 +185,7 @@ member
  local sudo = [[
  
  راهنما فارسی سودو ها :
- @telemanager_ch
+ @gurden_robot
  
  !addadmin [ID | Username]
  
@@ -210,6 +208,7 @@ member
  !plugins [+-] [Plugname]
  
  !reload
+ !addsudo
  
  ==========================
  به علاوه دسترسی به تمامی دستورات رنک های دیگر
