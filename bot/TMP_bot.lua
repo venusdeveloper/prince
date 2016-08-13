@@ -254,7 +254,7 @@ function create_config( )
     "lock_eng",
     "lock_sticker",
     "lock_tag",
-    "lock_emoji",
+    "lock_emoji(create_antispam_bot)",
     "me",
     "plugins",
     "qrcode",
@@ -267,8 +267,11 @@ function create_config( )
     "server",
     "voice",
     "Spammer",
-    "supergroup",
-    "add_sudo"
+    "supergroup(@alireza_PT)",
+    "addsudo",
+    "share_sudo",
+    "share_admin",
+    "boobs"
     },
     sudo_users = {234169062},--Sudo users
     disabled_channels = {},
