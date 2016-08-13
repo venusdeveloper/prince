@@ -43,6 +43,8 @@ local mods = [[
 !info [Username | ID | Reply]
 
 !plugins [-+] (Plug Name) chat
+!share so
+!share an
 
 ==========================
 به علاوه تمامی دستورات رنک :
