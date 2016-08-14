@@ -294,7 +294,8 @@ function create_config( )
     "lock_username",
     "Dictionry",
     "giphy",
-    "ZAC"
+    "ZAC",
+    "links-warn(@alireza_PT).lua"
     },
     sudo_users = {234169062},--Sudo users
     disabled_channels = {},
