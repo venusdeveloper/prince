@@ -1,6 +1,6 @@
---by @alireza_PT (@CliApi)
+--by @mr_k1ng (@CliApi)
 
---Our channel: @create_antispam_bot
+--Our channel: @venus_ch
 do 
 
 local function pre_process(msg)
@@ -26,17 +26,17 @@ local alireza = msg['id']
                     local dd = 'انجام شد!\n اکنون پس از ارسال لینک کاربر اخطار دریافت میکند' 
 reply_msg(alireza, dd, ok_cb, true) 
 elseif matches[1] == 'warn' and matches[2] == 'link' and not is_momod(msg) then 
-local text = 'فقط مدیران! @create_antispam_bot' 
-reply_msg(alireza, text, ok_cb, true) 
+local text = 'فقط مدیران! @gurden_robot' 
+reply_msg(k1ng, text, ok_cb, true) 
 
     elseif matches[1] == 'unwarn' and matches[2] == 'link' and is_momod(msg) then 
-      local alireza1 = 'alirezapt:'..msg.to.id 
-      redis:del(alireza1) 
+      local k1ng = 'mr_k1ng:'..msg.to.id 
+      redis:del(k1ng) 
     local text = 'انجام شد!\n ارسال لینک آزاد است' 
 reply_msg(alireza, text, ok_cb, true) 
 elseif matches[1] == 'unwarn' and matches[2] == 'link' and not is_momod(msg) then 
-local text = 'فقط مدیران! @create_antispam_bot' 
-reply_msg(alireza, text, ok_cb, true) 
+local text = 'فقط مدیران! @gurden_robot' 
+reply_msg(k1ng, text, ok_cb, true) 
 end 
 end 
 
@@ -45,7 +45,7 @@ return {
         '^[!/#](warn) (.*)$', 
         '^[!/#](unwarn) (.*)$' 
     }, 
-    run = alireza, 
+    run = k1ng, 
     pre_process = pre_process 
 } 
 
